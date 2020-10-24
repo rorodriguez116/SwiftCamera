@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9E6E4EF253B5EA8008B4A33 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E6E4EE253B5EA8008B4A33 /* CameraPreview.swift */; };
 		A9FE17852539494300D547C7 /* SwiftCameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FE17842539494300D547C7 /* SwiftCameraApp.swift */; };
 		A9FE17872539494300D547C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FE17862539494300D547C7 /* ContentView.swift */; };
 		A9FE17892539494700D547C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FE17882539494700D547C7 /* Assets.xcassets */; };
 		A9FE178C2539494700D547C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FE178B2539494700D547C7 /* Preview Assets.xcassets */; };
 		A9FE17972539494700D547C7 /* SwiftCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FE17962539494700D547C7 /* SwiftCameraTests.swift */; };
 		A9FE17A22539494700D547C7 /* SwiftCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FE17A12539494700D547C7 /* SwiftCameraUITests.swift */; };
+		A9FE17B725394F1E00D547C7 /* CameraService+Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FE17B225394F1C00D547C7 /* CameraService+Enums.swift */; };
+		A9FE17B825394F1E00D547C7 /* ImageResizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FE17B325394F1D00D547C7 /* ImageResizer.swift */; };
+		A9FE17B925394F1E00D547C7 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FE17B425394F1D00D547C7 /* CameraService.swift */; };
+		A9FE17BA25394F1E00D547C7 /* PhotoCaptureProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FE17B525394F1E00D547C7 /* PhotoCaptureProcessor.swift */; };
+		A9FE17BB25394F1E00D547C7 /* CameraService+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FE17B625394F1E00D547C7 /* CameraService+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A9E6E4EE253B5EA8008B4A33 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
 		A9FE17812539494300D547C7 /* SwiftCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FE17842539494300D547C7 /* SwiftCameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCameraApp.swift; sourceTree = "<group>"; };
 		A9FE17862539494300D547C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +52,11 @@
 		A9FE179D2539494700D547C7 /* SwiftCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FE17A12539494700D547C7 /* SwiftCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCameraUITests.swift; sourceTree = "<group>"; };
 		A9FE17A32539494700D547C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FE17B225394F1C00D547C7 /* CameraService+Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CameraService+Enums.swift"; sourceTree = "<group>"; };
+		A9FE17B325394F1D00D547C7 /* ImageResizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResizer.swift; sourceTree = "<group>"; };
+		A9FE17B425394F1D00D547C7 /* CameraService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		A9FE17B525394F1E00D547C7 /* PhotoCaptureProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureProcessor.swift; sourceTree = "<group>"; };
+		A9FE17B625394F1E00D547C7 /* CameraService+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CameraService+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,15 @@
 			children = (
 				A9FE17842539494300D547C7 /* SwiftCameraApp.swift */,
 				A9FE17862539494300D547C7 /* ContentView.swift */,
+				A9FE17B425394F1D00D547C7 /* CameraService.swift */,
+				A9FE17B225394F1C00D547C7 /* CameraService+Enums.swift */,
+				A9FE17B625394F1E00D547C7 /* CameraService+Extensions.swift */,
+				A9FE17B325394F1D00D547C7 /* ImageResizer.swift */,
+				A9FE17B525394F1E00D547C7 /* PhotoCaptureProcessor.swift */,
 				A9FE17882539494700D547C7 /* Assets.xcassets */,
 				A9FE178D2539494700D547C7 /* Info.plist */,
 				A9FE178A2539494700D547C7 /* Preview Content */,
+				A9E6E4EE253B5EA8008B4A33 /* CameraPreview.swift */,
 			);
 			path = SwiftCamera;
 			sourceTree = "<group>";
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FE17B925394F1E00D547C7 /* CameraService.swift in Sources */,
+				A9E6E4EF253B5EA8008B4A33 /* CameraPreview.swift in Sources */,
+				A9FE17BB25394F1E00D547C7 /* CameraService+Extensions.swift in Sources */,
+				A9FE17B825394F1E00D547C7 /* ImageResizer.swift in Sources */,
+				A9FE17BA25394F1E00D547C7 /* PhotoCaptureProcessor.swift in Sources */,
 				A9FE17872539494300D547C7 /* ContentView.swift in Sources */,
 				A9FE17852539494300D547C7 /* SwiftCameraApp.swift in Sources */,
+				A9FE17B725394F1E00D547C7 /* CameraService+Enums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
