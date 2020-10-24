@@ -1,9 +1,8 @@
 //
 //  CameraService+Enums.swift
-//  Campus
+//  SwiftCamera
 //
-//  Created by Rolando Rodriguez on 1/11/20.
-//  Copyright © 2020 Rolando Rodriguez. All rights reserved.
+//  Created by Rolando Rodriguez on 10/15/20.
 //
 
 import Foundation

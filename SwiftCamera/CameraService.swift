@@ -1,9 +1,8 @@
 //
 //  CameraService.swift
-//  Campus
+//  SwiftCamera
 //
-//  Created by Rolando Rodriguez on 12/20/19.
-//  Copyright © 2018 Rolando Rodriguez. All rights reserved.
+//  Created by Rolando Rodriguez on 10/15/20.
 //
 
 import Foundation
