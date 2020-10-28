@@ -27,5 +27,5 @@ MIT
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
    [package-git-repo-url]: <https://github.com/rorodriguez116/Camera-SwiftUI>
-   [medium-articule-url]: <>
+   [medium-articule-url]: <https://rorodriguez116.medium.com/effortless-swiftui-camera-d7a74abde37e>
 
